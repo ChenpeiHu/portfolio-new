@@ -1,0 +1,31 @@
+nav {
+  position: absolute;
+  text-align: center !important;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.10437678489364499) 90%);
+  z-index: 10 !important;
+  div {
+    display: flex !important;
+    justify-content: center !important;
+    z-index: 10 !important;
+    position: relative;
+    ul {
+      text-align: center !important;
+      align-self: center;
+      flex-direction: row !important;
+      li {
+        text-align: center !important;
+        padding: 0 20px;
+        a{
+          color: white;
+          &:active{
+            color: white;
+          }
+          &:hover{
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

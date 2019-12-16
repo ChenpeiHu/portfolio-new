@@ -1,0 +1,73 @@
+main{
+  color: white;
+  .landing-title {
+    //box-shadow: 0 4px 2px -2px gray;
+
+    //margin-top: -56px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  background: #56CCF2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  z-index: 1;
+  position: relative;
+}
+
+#landing-text{
+  z-index: 5 !important;
+  display:block;
+  position: relative;
+}
+
+.background-transition1{
+  height: 20px;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 90%);
+}
+
+#particlesField{
+  z-index: 1 !important;
+  position: absolute;
+  display:block;
+  max-width: 100%;
+}
+
+#over-mij-sectie{
+  padding: 140px 0;
+  min-height: 100vh;
+  background-color: #f5f6fa;
+  color: black;
+}
+
+#werk-sectie{
+  padding: 50px 0;
+  min-height: 100vh;
+  //background-color: #7bed9f;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0 40px 0;
+  .test-blok{
+    height: 20vh;
+    width: 20vh;
+    background-color: grey;
+    border: 1px solid red;
+  }
+}
+
+#skills-sectie{
+  padding: 50px 0;
+  min-height: 100vh;
+  background-color: #f5f6fa;
+  color: black;
+}
+
+#contact-sectie{
+  padding: 50px 0;
+  min-height: 100vh;
+}
