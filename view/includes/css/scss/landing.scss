@@ -43,31 +43,33 @@ main{
 }
 
 #werk-sectie{
-  padding: 50px 0;
+  padding: 140px 0;
   min-height: 100vh;
   //background-color: #7bed9f;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  padding: 40px 0 40px 0;
-  .test-blok{
-    height: 20vh;
-    width: 20vh;
-    background-color: grey;
-    border: 1px solid red;
+  .werk-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+
+    .card{
+      color: black;
+      width: 18rem;
+      margin: 10px;
+    }
   }
 }
 
 #skills-sectie{
-  padding: 50px 0;
+  padding: 140px 0;
   min-height: 100vh;
   background-color: #f5f6fa;
   color: black;
 }
 
 #contact-sectie{
-  padding: 50px 0;
+  padding: 5px 0;
   min-height: 100vh;
 }

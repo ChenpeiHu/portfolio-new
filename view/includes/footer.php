@@ -9,6 +9,7 @@
         crossorigin="anonymous"></script>
 <script src="view/includes/js/particles.js"></script>
 <script src="view/includes/js/main.js"></script>
+<script src="view/includes/js/skillslider.js"></script>
 
 </body>
 </html>

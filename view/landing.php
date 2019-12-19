@@ -40,15 +40,96 @@
         </section>
 
         <section id="werk-sectie" class="container">
-            <div class="test-blok"></div>
-            <div class="test-blok"></div>
-            <div class="test-blok"></div>
-            <div class="test-blok"></div>
+            <h2>
+                Mijn werk
+            </h2>
+            <div class="werk-container">
+
+                <div class="card">
+                    <img class="card-img-top" src="view/includes/images/download.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">GamePlayParty</h5>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="view/includes/images/download.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Shizen</h5>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="view/includes/images/download.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Afspraakplanner</h5>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="view/includes/images/download.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Oude portfolio</h5>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="view/includes/images/download.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Pontes Medical</h5>
+                    </div>
+                </div>
+
+            </div>
         </section>
 
         <section id="skills-sectie">
             <div class="container">
                 <h2>Wat kan ik</h2>
+
+                <p>
+                    Ik heb tijdens mijn opleiding heb ik verschillende talen en technieken geleerd.
+                    Ik heb kennis van front-end en back-end talen. En werktechnieken als scrum en waterfall.
+                </p>
+                <br>
+                <div class="container">
+
+                    <!--                    <div class="bar learning" data-skill="HTML5"></div>-->
+                    <!--                    <div class="bar back basic" data-skill="CSS3"></div>-->
+                    <!--                    <div class="bar back basic" data-skill="Javascript"></div>-->
+                    <!--                    <div class="bar front intermediate" data-skill="PHP"></div>-->
+                    <!--                    <div class="bar front intermediate" data-skill="MySQL"></div>-->
+                    <!--                    <div class="bar front basic" data-skill="Git"></div>-->
+                    <!--                    <div class="bar front learning" data-skill="jQuery"></div>-->
+                    <!--                    <div class="bar front intermediate" data-skill="Scrum"></div>-->
+                    <!--                    <div class="bar front basic" data-skill="Waterfall"></div>-->
+
+                    <div class="slideshow-container">
+
+                        <div class="skillSlides fade">
+                            <div class="bar advanced" data-skill="HTML5"></div>
+                            <div class="bar back intermediate" data-skill="CSS3"></div>
+                            <div class="bar back basic" data-skill="Javascript"></div>
+                            <div class="bar front intermediate" data-skill="PHP"></div>
+                            <div class="bar front intermediate" data-skill="MySQL"></div>
+                        </div>
+
+                        <div class="skillSlides fade">
+                            <div class="bar front basic" data-skill="Git"></div>
+                            <div class="bar front learning" data-skill="jQuery"></div>
+                            <div class="bar front intermediate" data-skill="Scrum"></div>
+                            <div class="bar front basic" data-skill="Waterfall"></div>
+                        </div>
+
+                    </div>
+                    <br>
+
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                    </div>
+
+                </div>
             </div>
         </section>
 
